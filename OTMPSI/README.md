@@ -214,14 +214,6 @@ typename boost::detail::sp_member_access<T>::type boost::shared_ptr<T>::operator
 
 - Finish without output: This issue occurred only once during whole benchmarking but we were unable to reproduce it.
 
-<!-- CONTACT -->
-
-## Contact
-
-Huiyang He - hhe@mail.ustc.edu.cn
-
-Le Yang - leyang@mail.ustc.edu.cn
-
 
 
 

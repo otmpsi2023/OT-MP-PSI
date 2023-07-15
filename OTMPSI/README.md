@@ -96,9 +96,9 @@ On macOS, we suggest using [Homebrew](https://brew.sh/) to install all the depen
 ```
    brew install boost gmp ntl
 ```
+Please note that you may need to update the library path in the makefile to match the location where Homebrew installed the dependencies.
 
-If you encounter any issues with installing the dependencies using Homebrew, you can try following the Linux
-installation steps above.
+If you encounter any issues with installing the dependencies using Homebrew, you can try following the Linux installation steps provided above.
 
 ### Installation
 

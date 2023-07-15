@@ -1,3 +1,7 @@
+# Denpendencies files
+*.cpp.d
+
+
 # Object files
 *.o
 *.ko

@@ -1,0 +1,66 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+# C++ specific files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Python specific files
+__pycache__/
+*.py[cod]
+
+# Shell scripts specific files
+*~
+
+# GMP and NTL specific files
+.gmp*
+.NTL*
+
+# OS-specific files for macOS and Ubuntu
+.DS_Store*
+Thumbs.db
+
+# Visual Studio Code specific files
+.vscode/
+
+# CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+
+# Text files
+*.txt

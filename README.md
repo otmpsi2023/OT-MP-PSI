@@ -42,5 +42,5 @@ To better compare run-time results with Bay et al.'s protocol, we tried to integ
 
 ## Contact
 
-Huiyang He - hhe@mail.ustc.edu.cn
-Le Yang - leyang@mail.ustc.edu.cn
+- Huiyang He: [hhe@mail.ustc.edu.cn](mailto:hhe@mail.ustc.edu.cn)
+- Le Yang: [leyang@mail.ustc.edu.cn](mailto:leyang@mail.ustc.edu.cn)

@@ -14,7 +14,7 @@ This repository contains experimental code for "Practical Over-threshold Multipa
 
 ## About The Repo
 
-We have successfully compiled the code on Ubuntu 22, macOS Monterey (Intel chip) and macOS Sonoma (Apple Silicon). Please note that the implementation is optimized for experimental use only and is not intended for production environments.
+We have successfully compiled the code on Ubuntu 22, macOS Monterey (Intel chip) and macOS Sonoma (Apple Silicon). Please note that the implementation is for experimental usage only.
 
 ## Dependencies
 

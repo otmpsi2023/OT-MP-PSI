@@ -163,7 +163,7 @@ The script accepts the following arguments:
 To use the script, run it with the desired arguments. For example:
 
 ```
-python3 ./tools/gen_prime/gen_prime.py --set_size 256 --false_positive_rate 0.01
+python3 ./tools/gen_config/gen_config.py --set_size 256 --false_positive_rate 0.01
 ```
 
 This will run the script with a set size of 256 and a false positive rate of 0.01, and produce several JSON files under

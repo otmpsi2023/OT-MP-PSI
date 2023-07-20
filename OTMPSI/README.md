@@ -60,9 +60,10 @@ On Linux, you can install the dependencies by following these steps:
 
 * Install Boost:
    ```
-   % wget -O boost_1_81_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
+   % wget -O boost_1_81_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.81.0/boost_1_81_0.tar.gz/download
    % tar xzvf boost_1_81_0.tar.gz
    % cd boost_1_81_0/
+   % sudo apt-get install build-essential autoconf
    % ./bootstrap.sh --prefix=/usr/
    % ./b2
    % sudo ./b2 install
@@ -70,12 +71,12 @@ On Linux, you can install the dependencies by following these steps:
 * Install GMP:
    ```
     % wget https://gmplib.org/download/gmp/gmp-6.2.1.tar.xz
-    % tar xzvf gmp-6.2.1.tar.xz
+    % tar -xvf gmp-6.2.1.tar.xz
     % cd gmp-6.2.1
     % ./configure
     % make
     % make check
-    % make install
+    % sudo make install
    ```
 * Install NTL:
    ```
@@ -104,7 +105,7 @@ If you encounter any issues with installing the dependencies using Homebrew, you
 
 1. Clone this repository to your local machine:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/otmpsi2023/Otmpsi.git
    ```
 2. cd *project-directory*
 3. Build the project
@@ -162,7 +163,7 @@ The script accepts the following arguments:
 To use the script, run it with the desired arguments. For example:
 
 ```
-python ./tools/gen_prime/gen_prime.py --set_size 256 --false_positive_rate 0.01
+python3 ./tools/gen_config/gen_config.py --set_size 256 --false_positive_rate 0.01
 ```
 
 This will run the script with a set size of 256 and a false positive rate of 0.01, and produce several JSON files under
@@ -192,7 +193,7 @@ sh ./tools/benchmark/benchmark.sh
 This script automates the process of running multiple benchmarks with different parameter sets. It generates configuration files using the `gen_config.py` script for different combinations of `set_size`, `number_of_parties`, and `intersection_threshold` values, and then runs the `benchmark` component using those configuration files. The output of each benchmark run is appended to `output/benchmark_output.txt`. The script also includes a 5-second pause between benchmarks to allow the machine to do any necessary cleanup.
 
 ```
-sh ./tools/benchmark/run_benchmark.sh
+bash ./tools/benchmark/run_benchmark.sh
 ```
 
 <!-- LICENSE -->
